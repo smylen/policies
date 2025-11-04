@@ -39,4 +39,4 @@ The following process is used to request audit reports:
 
 ## 1.5 Version Control
 
-Refer to the GitHub repository at [https://github.com/danhorowitznyc/policies/](https://github.com/danhorowitznyc/policies/) for the full version history of these policies.
+Refer to the GitHub repository at [github.com/smylen/policies/](https://github.com/smylen/policies/) for the full version history of these policies.

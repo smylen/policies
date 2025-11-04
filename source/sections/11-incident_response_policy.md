@@ -27,7 +27,7 @@ The incident response process addresses:
 
 ## 11.2 Incident Management Policies
 
-The Smylen incident response process follows the process recommended by [SANS](https://www.sans.org), an industry leader in security. Process flows are a direct representation of the SANS process which can be found in [this document](sections/incident-flowchart.pdf).
+The Smylen incident response process follows the process recommended by [SANS](https://www.sans.org), an industry leader in security. Process flows are a direct representation of the SANS process which can be found in [this document](incident-flowchart.pdf).
 
 Smylen's incident response classifies security-related events into the following categories:
 
@@ -60,10 +60,10 @@ Smylen employees must report any unauthorized or suspicious activity seen on pro
    4. Online incident response form located [here](https://docs.google.com/a/catalyze.io/forms/d/1Hn4di9Jdw5JT8vISMh6tVUnh94VpeHucell7Ca4fKTo/viewform);
    5. Secure Chat;
    6. Anonymously through workforce member's desired channels.
-2. The individual receiving the report facilitates completion of an [Incident Identification form](sections/IH-Identification.pdf) and notifies the Security Officer (if not already done).
+2. The individual receiving the report facilitates completion of an [Incident Identification form](IH-Identification.pdf) and notifies the Security Officer (if not already done).
 3. The Security Officer determines if the issue is an Event, Precursor, Indication, or Incident.
    1. If the issue is an event, indication, or precursor the Security Officer forwards it to the appropriate resource for resolution.
-      1. Non-Technical Event (minor infringement): the Security Officer completes a [SIR Form](sections/sir-form.doc) and investigates the incident.
+      1. Non-Technical Event (minor infringement): the Security Officer completes a [SIR Form](sir-form.doc) and investigates the incident.
       2. Technical Event: Assign the issue to an IT resource for resolution. This resource may also be a contractor or outsourced technical resource, in the event of a small office or lack of expertise in the area.
    2. If the issue is a security incident the Security Officer activates the Security Incident Response Team (SIRT) and notifies senior management.
        1. If a non-technical security incident is discovered the SIRT completes the investigation, implements preventative measures, and resolves the security incident.
@@ -71,7 +71,7 @@ Smylen employees must report any unauthorized or suspicious activity seen on pro
        3. If the issue is a technical security incident, commence to Phase II: Containment.
        4. The Containment, Eradication, and Recovery Phases are highly technical. It is important to have them completed by a highly qualified technical security resource with oversight by the SIRT team.
        5. Each individual on the SIRT and the technical security resource document all measures taken during each phase, including the start and end times of all efforts.
-       6. The lead member of the SIRT team facilitates initiation of a [SIR Form](sections/sir-form.doc) or an [Incident Survey Form](sections/IH-Survey.pdf). The intent of the SIR form is to provide a summary of all events, efforts, and conclusions of each Phase of this policy and procedures.
+       6. The lead member of the SIRT team facilitates initiation of a [SIR Form](sir-form.doc) or an [Incident Survey Form](IH-Survey.pdf). The intent of the SIR form is to provide a summary of all events, efforts, and conclusions of each Phase of this policy and procedures.
 3. The Security Officer, Privacy Officer, or Smylen representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
 4. In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to Smylen and potentially external.
 
@@ -89,7 +89,7 @@ In this Phase, Smylen's IT department attempts to contain the security incident.
    5. Change the password(s) to the affected system(s).
    6. Determine whether it is safe to continue operations with the affected system(s).
    7. If it is safe, allow the system to continue to function;
-      1. Complete any documentation relative to the security incident on the [SIR Form](sections/sir-form.doc).
+      1. Complete any documentation relative to the security incident on the [SIR Form](sir-form.doc).
       2. Move to Phase V, Follow-up.
    8. If it is NOT safe to allow the system to continue operations, discontinue the system(s) operation and move to Phase III, Eradication.
    9. The individual completing this phase provides written communication to the SIRT.
