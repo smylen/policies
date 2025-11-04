@@ -31,6 +31,6 @@ The following process is used to request audit reports:
 5. The Smylen Security Officer or Privacy Officer must Approve or Reject the Issue. If the Issue is rejected, Smylen will notify the requesting party that we cannot share the requested report.
 6. If the issue has been Approved, Smylen will send the customer the requested audit report and complete the Task Management System issue for the request.
 
-## 1. Version Control
+## 1.4 Version Control
 
 Refer to the GitHub repository at [github.com/smylen/policies/](https://github.com/smylen/policies/) for the full version history of these policies.
