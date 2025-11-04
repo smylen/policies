@@ -1,0 +1,14 @@
+site_name: Smylen HIPAA Compliance Policies
+site_url: https://security-policy.smylen.com/
+docs_dir: source
+theme: 
+  name: material
+  palette:
+      primary: white
+      accent: blue
+  logo: img/logo.svg
+  favicon: img/favicon.ico
+  features: 
+    - search.suggest
+    - search.highlight
+    - navigation.top
