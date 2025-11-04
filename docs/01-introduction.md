@@ -1,12 +1,6 @@
 # 1. Introduction
 
-Smylen, Inc ("Smylen") is committed to ensuring the confidentiality, privacy, integrity, and availability of all electronic protected health information (ePHI) it receives, maintains, processes and/or transmits on behalf of its Customers. As builders of compliant, hosted software used by health practicioners, consumers, insurance brokers, businesses, and various types of organizations ("Customers"), Smylen strives to maintain compliance, proactively address information security, mitigate risk for these Customers, and assure known breaches are completely and effectively communicated in a timely manner. The following documents address core policies used by Smylen to maintain compliance and assure the proper protections of infrastructure used to store, process, and transmit ePHI for Smylen Customers.
-
-Smylen provides a technology enabled, mobile web based marketplace ("platform") for consumers to book dental treatments, and a membersip rewards program sponsored by organizations and offered to groups. These Categories are cited throughout policies as Customers in each category inherit different policies, procedures, and obligations from Smylen. 
-
-The platform stores dental treatment information and medical history to provide a seamless consumer experience going to the dentist. Smylen makes every effort to reduce the risk of unauthorized disclosure, access, and/or breach of Smylen customer data through the use of secure cloud technologies. Our platorm is locked down at all levels including the network (firewalls, dedicated VPC, etc), server (encryption at rest and in transit, strict of use containers, etc) and application layer. Access is limited to those who need it for their jobs, and any changes or exceptions are documented so such that these claims are verifable by audit. 
-
-## 1.2 Compliance Inheritance
+## 1.1 Compliance Inheritance
 
 Smylen provides compliant hosted software for its Customers. Smylen is a new company and has not completed a HIPAA/HITRUST compliance audit by a national third-party compliance firm to validate and map organizational policies and technical controls to HIPAA rules. Smylen's CTO has built the company policies, procedures, and technology with HIPAA/HITRUST in mind and is seeking a firm to conduct an audit to verify this claim. Notewistanding, Smylen's platform was built by security and privacy experts, runs entirely on AWS using its highest grade of security tooling; current production systems on AWS will be included in Smylen's third-party audits and HITRUST certification.
 
@@ -16,7 +10,7 @@ Smylen does not act as a covered entity. When Smylen does operate as a business 
 
 Smylen signed a BAA with AWS as they manage the security of our infrastructure from datacenter, network up to but not including the application and data. The network, servers, container management, databases and storage are secured by AWS and covered by their BAA. In addition, we use AWS SecurityHub, GuardDuty and CloudTrail for continuous monitoring, remediation and compliance.  
 
-## 1.3 Smylen Organizational Concepts
+## 1.2 Smylen Organizational Concepts
 
 The entire infrastructure environment is hosted at [AWS](https://aws.amazon.com/). Smylen does not have physical access into the network or server components. The Smylen environment consists of nginx load balancers and web servers; scalable Node.JS application servers; MySQL and Redis database servers; S3 encrypted file storage; Cloudwatch logging and monitoring; Docker containers; and replicated dev/staging environments in seperate AWS account.
 
@@ -24,7 +18,7 @@ Within the Smylen environment on AWS, all data transmission is encrypted and all
 
 In the case of Smylen Customers, it is the responsibility of the Customer to restrict, secure, and assure the privacy of all ePHI data on their end of the wire, as this is not under the control or purview of Smylen.
 
-## 1.4 Requesting Audit and Compliance Reports
+## 1.3 Requesting Audit and Compliance Reports
 
 Smylen, at its sole discretion, shares audit reports, including its HITRUST reports and Corrective Action Plans (CAPs), with customers on a case by case basis. All audit reports are shared under explicit NDA in Smylen format between Smylen and party to receive materials. Audit reports can be requested by Smylen workforce members for Customers or directly by Smylen Customers.
 
@@ -37,6 +31,6 @@ The following process is used to request audit reports:
 5. The Smylen Security Officer or Privacy Officer must Approve or Reject the Issue. If the Issue is rejected, Smylen will notify the requesting party that we cannot share the requested report.
 6. If the issue has been Approved, Smylen will send the customer the requested audit report and complete the Task Management System issue for the request.
 
-## 1.5 Version Control
+## 1. Version Control
 
 Refer to the GitHub repository at [github.com/smylen/policies/](https://github.com/smylen/policies/) for the full version history of these policies.

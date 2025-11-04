@@ -1,8 +1,9 @@
-site_name: Smylen HIPAA Compliance Policies
+site_name: Smylen Compliance Policy Documentation
 site_url: https://security-policy.smylen.com/
 strict: true
 theme: 
   name: material
+  footer: false
   palette:
       primary: white
       accent: blue
@@ -12,3 +13,9 @@ theme:
     - search.suggest
     - search.highlight
     - navigation.top
+    - navigation.footer
+extra:
+  generator: false
+validation:
+  links:
+    anchors: warn
