@@ -61,7 +61,7 @@ The following teams have been developed and trained to respond to a contingency 
 
 The team leader is the CTO and directs the Tech Team.
 
-Members of the Tech team must maintain local copies of the contact information from [§13.2](#13.2-line-of-succession). Additionally, the CTO must maintain a local copy of this policy in the event Internet access is not available during a disaster scenario.
+Members of the Tech team must maintain local copies of the contact information from [§13.2](#132-line-of-succession). Additionally, the CTO must maintain a local copy of this policy in the event Internet access is not available during a disaster scenario.
 
 ## 13.4 Testing and Maintenance
 

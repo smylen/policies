@@ -22,7 +22,7 @@ Smylen implements policies and procedures to maintain compliance and integrity o
   2. The Security Officer or the Privacy Officer is assigned to review the policy change request.
   3. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
   4. If the review is approved, the Security Officer or Privacy Officer then marks the Issue as Done, adding any pertinent notes required.
-  5. If the policy change requires technical modifications to production systems, those changes are carried out by authorized personnel using Smylen's [change management process (§9.4)](#9.4-changing-existing-systems).
+  5. If the policy change requires technical modifications to production systems, those changes are carried out by authorized personnel using Smylen's [change management process (§9.4)](./09-configuration_management_policy.md#94-changing-existing-systems).
 4. All policies are made accessible to all Smylen workforce members. The current master policies are published at [https://security-policy.smylen.com](https://security-policy.smylen.com).
    * Changes are automatically communicated to all Smylen team members through integrations between GitHub and Slack that log all GitHub policy channels to a dedicated Smylen Slack Channel.
    * The Security Officer also communicates policy changes to all employees via email. These emails include a high-level description of the policy change using terminology appropriate for the target audience.
@@ -37,4 +37,4 @@ Smylen implements policies and procedures to maintain compliance and integrity o
   5. If the review is approved, the Security Officer or Privacy Officer then marks the Issue as Done, adding any pertinent notes required.
   6. Policy review is monitored on a quarterly basis using the Task Management System reporting to assess compliance with above policy.
 
-Additional documentation related to maintenance of policies is outlined in [§5.3.1](#5.3-security-officer).
+Additional documentation related to maintenance of policies is outlined in [§5.3.1](05-roles_policy.md#53-security-officer).
