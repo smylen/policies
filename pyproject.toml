@@ -7,3 +7,8 @@ dependencies = [
     "mkdocs>=1.6.1",
     "mkdocs-material>=9.6.23",
 ]
+
+[dependency-groups]
+dev = [
+    "uv>=0.9.8",
+]
