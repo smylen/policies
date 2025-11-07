@@ -72,8 +72,8 @@ Smylen employees must report any unauthorized or suspicious activity seen on pro
        4. The Containment, Eradication, and Recovery Phases are highly technical. It is important to have them completed by a highly qualified technical security resource with oversight by the SIRT team.
        5. Each individual on the SIRT and the technical security resource document all measures taken during each phase, including the start and end times of all efforts.
        6. The lead member of the SIRT team facilitates initiation of a [SIR Form](assets/sir-form.doc) or an [Incident Survey Form](assets/IH-Survey.pdf). The intent of the SIR form is to provide a summary of all events, efforts, and conclusions of each Phase of this policy and procedures.
-3. The Security Officer, Privacy Officer, or Smylen representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
-4. In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to Smylen and potentially external.
+4. The Security Officer, Privacy Officer, or Smylen representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
+5. In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to Smylen and potentially external.
 
 ### 11.2.2 Containment Phase (Technical)
 

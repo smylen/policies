@@ -19,3 +19,5 @@ extra:
 validation:
   links:
     anchors: warn
+    absolute_links: warn
+    unrecognized_links: warn

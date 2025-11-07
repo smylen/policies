@@ -34,13 +34,13 @@ Access to Smylen systems and applications is limited for all users, including bu
 ## 7.2 Access Establishment and Modification
 
 1. Requests for access to Smylen Platform systems and applications are made formally using the following process:
-  1. A Smylen workforce member initiates the access request by creating an Issue in the Smylen Task Management System.
-     * User identities must be verified prior to granting access to new accounts.
-     * Identity verification must be done in person where possible; for remote employees, identities must be verified over the phone.
-     * For new accounts, the method used to verify the user's identity must be recorded on the Issue.
-  2. The Security Officer or Privacy Officer will grant access to systems as dictated by the employee's job title. If additional access is required outside of the minimum necessary to perform job functions, the requester must include a description of why the additional access is required as part of the access request.
-  3. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
-  4. If the review is approved, the Security Officer or Privacy Officer then marks the Issue as Done, adding any pertinent notes required. The Security Officer or Privacy Officer then grants requested access.
+   1. A Smylen workforce member initiates the access request by creating an Issue in the Smylen Task Management System.
+      * User identities must be verified prior to granting access to new accounts.
+      * Identity verification must be done in person where possible; for remote employees, identities must be verified over the phone.
+      * For new accounts, the method used to verify the user's identity must be recorded on the Issue.
+   2. The Security Officer or Privacy Officer will grant access to systems as dictated by the employee's job title. If additional access is required  outside of the minimum necessary to perform job functions, the requester must include a description of why the additional access is required as  part of the access request.
+   3. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the Issue. If the Issue is rejected, it goes back  for further review and documentation.
+   4. If the review is approved, the Security Officer or Privacy Officer then marks the Issue as Done, adding any pertinent notes required. The Security Officer or Privacy Officer then grants requested access.
      * New accounts will be created with a temporary secure password that meets all requirements from [§7.12](#712-password-management), which must be changed on the initial login.
      * All password exchanges must occur over an authenticated channel.
      * For production systems, access grants are accomplished by adding the appropriate user account to the corresponding LDAP group.
@@ -119,7 +119,7 @@ All workstations at Smylen are company owned, and all are laptop Apple products 
 6. Users may not misrepresent, obscure, suppress, or replace another user's identity in transmitted or stored messages.
 7. Workstation hard drives will be encrypted using FileVault 2.0 or equivalent.
 8. All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
-9. All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by Smylen, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://security-policy.smylen.com) and have completed this training (https://secure.justworks.com/training). Please contact us if you have problems with this - privacy@smylen.com.*
+9. All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by Smylen, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (<https://security-policy.smylen.com>) and have completed this training (<https://secure.justworks.com/training>). Please contact us if you have problems with this - <privacy@smylen.com>.*
 
 ## 7.9 Wireless Access Use
 
@@ -167,7 +167,7 @@ Smylen does not use paper records for any sensitive information. Use of paper fo
 10. All passwords used in configuration scripts are secured and encrypted.
 11. If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
 12. In cases where a user has forgotten their password, the following procedure is used to reset the password.
-    * The user submits a password reset request to password-reset@smylen.com. The request should include the system to which the user has lost access and needs the password reset.
+    * The user submits a password reset request to <password-reset@smylen.com>. The request should include the system to which the user has lost access and needs the password reset.
     * An administrator with password reset privileges is notified and connects directly with the user requesting the password reset.
     * The administrator verifies the identity of the user either in-person or through a separate communication channel such as phone or Slack.
     * Once verified, the administrator resets the password.

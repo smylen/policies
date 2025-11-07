@@ -6,12 +6,12 @@ Smylen makes every effort to assure all 3rd party organizations are compliant an
 
 ### 21.1.1 Applicable Standards from the HITRUST Common Security Framework
 
-*  05.i - Identification of Risks Related to External Parties
-*  05.k - Addressing Security in Third Party Agreements
-*  09.e - Service Delivery
-*  09.f - Monitoring and Review of Third Party Services
-*  09.g - Managing Changes to Third Party Services
-*  10.1 - Outsourced Software Development
+* 05.i - Identification of Risks Related to External Parties
+* 05.k - Addressing Security in Third Party Agreements
+* 09.e - Service Delivery
+* 09.f - Monitoring and Review of Third Party Services
+* 09.g - Managing Changes to Third Party Services
+* 10.1 - Outsourced Software Development
 
 ### 21.1.2 Applicable Standards from the HIPAA Security Rule
 
@@ -42,4 +42,4 @@ Smylen makes every effort to assure all 3rd party organizations are compliant an
 11. For all partners, Smylen reviews activity annually to assure partners are in line with SLAs in contracts with Smylen.
 12. SLA review is monitored on a quarterly basis using the Task Management System reporting to assess compliance with above policy.
 13. The 3rd Party Assurance process is reviewed annually and updated to include any necessary changes.
-14. Changes to the 3rd Party Assurance process will also be made on an ad-hoc basis in cases where operational changes require it or if the process is found lacking. 
+14. Changes to the 3rd Party Assurance process will also be made on an ad-hoc basis in cases where operational changes require it or if the process is found lacking.

@@ -8,7 +8,11 @@
 
 * *Audit Controls*: Technical mechanisms that track and record computer/system activities.
 
-* *Audit Logs*: Encrypted records of activity maintained by the system which provide: 1) date and time of activity; 2) origin of activity (app); 3) identification of user doing activity; and 4) data accessed as part of activity.
+* *Audit Logs*: Encrypted records of activity maintained by the system which provide:
+    1. date and time of activity.
+    2. origin of activity (app).
+    3. identification of user doing activity; and
+    4. data accessed as part of activity.
 
 * *Access*: Means the ability or the means necessary to read, write, modify, or communicate data/ information or otherwise use any system resource.
 
@@ -42,7 +46,7 @@
 
 * *Event*: An event is defined as an occurrence that does not constitute a serious adverse effect on Smylen, its operations, or its Customers, though it may be less than optimal. Examples of events include, but are not limited to:
   * A hard drive malfunction that requires replacement;
-  *  Systems become unavailable due to power outage that is non-hostile in nature, with redundancy to assure ongoing availability of data;
+  * Systems become unavailable due to power outage that is non-hostile in nature, with redundancy to assure ongoing availability of data;
   * Accidental lockout of an account due to incorrectly entering a password multiple times.
 
 * *Hardware (or hard drive)*: Any computing device able to create and store ePHI.

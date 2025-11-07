@@ -45,7 +45,7 @@ Production systems that create, receive, store, or transmit Customer data (herea
 
 ## 17.8 Production Data Security
 
-1. Reduce the risk of compromise of Production Data with daily backups, encryption, secure storage of secrets, and dual factor authentication for administrators. 
+1. Reduce the risk of compromise of Production Data with daily backups, encryption, secure storage of secrets, and dual factor authentication for administrators.
 2. Implement and/or review controls designed to protect Production Data from improper alteration or destruction.
 3. Ensure that confidential data is stored in a manner that supports user access logs and automated monitoring for potential security incidents.
 4. Ensure Smylen Customer Production Data is segmented and only accessible to Customers authorized to access data.

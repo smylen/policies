@@ -47,10 +47,10 @@ In the case of a breach, Smylen shall notify all affected Customers. It is the r
    * A description of the types of unsecured protected health information that were involved in the breach (such as full name, Social Security number, date of birth, home address, account number, etc.), if known.
    * A description of the action taken with regard to notification of patients regarding the breach.
    * Resolution steps taken to mitigate the breach and prevent future occurrences.
-10. Workforce Training: Smylen shall train all members of its workforce on the policies and procedures with respect to ePHI as necessary and appropriate for the members to carry out their job responsibilities. Workforce members shall also be trained as to how to identify and report breaches within the organization.
-11. Complaints: Smylen must provide a process for individuals to make complaints concerning the organization's patient privacy policies and procedures or its compliance with such policies and procedures.
-12. Sanctions: The organization shall have in place and apply appropriate sanctions against members of its workforce, Customers, and Partners who fail to comply with privacy policies and procedures.
-13. Retaliation/Waiver: Smylen may not intimidate, threaten, coerce, discriminate against, or take other retaliatory action against any individual for the exercise by the individual of any privacy right. The organization may not require individuals to waive their privacy rights under as a condition of the provision of treatment, payment, enrollment in a health plan, or eligibility for benefits.
+9. Workforce Training: Smylen shall train all members of its workforce on the policies and procedures with respect to ePHI as necessary and appropriate for the members to carry out their job responsibilities. Workforce members shall also be trained as to how to identify and report breaches within the organization.
+10. Complaints: Smylen must provide a process for individuals to make complaints concerning the organization's patient privacy policies and procedures or its compliance with such policies and procedures.
+11. Sanctions: The organization shall have in place and apply appropriate sanctions against members of its workforce, Customers, and Partners who fail to comply with privacy policies and procedures.
+12. Retaliation/Waiver: Smylen may not intimidate, threaten, coerce, discriminate against, or take other retaliatory action against any individual for the exercise by the individual of any privacy right. The organization may not require individuals to waive their privacy rights under as a condition of the provision of treatment, payment, enrollment in a health plan, or eligibility for benefits.
 
 ## 12.3 Smylen Platform Customer Responsibilities
 
@@ -65,7 +65,6 @@ In the case of a breach, Smylen shall notify all affected Customers. It is the r
 ## 12.4 Sample Letter to Customers in Case of Breach
 
 [Date]
-
 
 [Name]
 [Name of Customer]
@@ -93,8 +92,7 @@ We will assist you in remedying the situation.
 
 Sincerely,
 
-
 Derek Giddon, DMD
 CEO/Co-founder - Smylen, Inc.  
-derek@smylen.com  
+<derek@smylen.com>
 516-633-9016‬
