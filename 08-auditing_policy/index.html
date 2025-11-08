@@ -1,0 +1,1306 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://security-policy.smylen.com/08-auditing_policy/">
+      
+      
+        <link rel="prev" href="../07-systems_access_policy/">
+      
+      
+        <link rel="next" href="../09-configuration_management_policy/">
+      
+      
+      <link rel="icon" href="../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>8. Auditing Policy - Smylen Compliance Policy Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#8-auditing-policy" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Smylen Compliance Policy Documentation" class="md-header__button md-logo" aria-label="Smylen Compliance Policy Documentation" data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Smylen Compliance Policy Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              8. Auditing Policy
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Smylen Compliance Policy Documentation" class="md-nav__button md-logo" aria-label="Smylen Compliance Policy Documentation" data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
+
+    </a>
+    Smylen Compliance Policy Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Smylen HIPAA Compliance Policies
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1. Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-hipaa_inheritance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2. HIPAA Inheritance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-policy_management_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3. Policy Management Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-risk_management_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    4. Risk Management Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-roles_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    5. Roles Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-data_management_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6. Data Management Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-systems_access_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    7. System Access Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    8. Auditing Policy
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    8. Auditing Policy
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#81-applicable-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.1 Applicable Standards
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.1 Applicable Standards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#811-applicable-standards-from-the-hitrust-common-security-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.1.1 Applicable Standards from the HITRUST Common Security Framework
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#812-applicable-standards-from-the-hipaa-security-rule" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.1.2 Applicable Standards from the HIPAA Security Rule
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#82-auditing-policies" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.2 Auditing Policies
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#83-audit-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.3 Audit Requests
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#84-review-and-reporting-of-audit-findings" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.4 Review and Reporting of Audit Findings
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#85-auditing-customer-and-partner-activity" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.5 Auditing Customer and Partner Activity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#86-audit-log-security-controls-and-backup" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.6 Audit Log Security Controls and Backup
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#87-workforce-training-education-awareness-and-responsibilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.7 Workforce Training, Education, Awareness and Responsibilities
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#88-external-audits-of-information-access-and-activity" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.8 External Audits of Information Access and Activity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#89-retention-of-audit-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.9 Retention of Audit Data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#810-potential-trigger-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.10 Potential Trigger Events
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09-configuration_management_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    9. Configuration Management Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-facility_access_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    10. Facility Access Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-incident_response_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    11. Incident Response Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-breach_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    12. Breach Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13-disaster_recovery_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    13. Disaster Recovery Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14-disposable_media_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    14. Disposable Media Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../15-ids_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    15. IDS Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16-vulnerability_scanning_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    16. Vulnerability Scanning Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../17-data_integrity_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    17. Data Integrity Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../18-data_retention_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    18. Data Retention Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../19-employees_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    19. Employees Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../20-approved_tools_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    20. Approved Tools Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../21-3rd_party_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    21. 3rd Party Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../22-key_definitions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    22. Key Definitions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../23-smylen_hipaa_business_associate_agreement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    23. Smylen HIPAA Business Associate Agreement ("BAA")
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../24-hipaa_mapping_to_smylen_controls/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    24. HIPAA Mappings to Smylen Controls
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#81-applicable-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.1 Applicable Standards
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.1 Applicable Standards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#811-applicable-standards-from-the-hitrust-common-security-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.1.1 Applicable Standards from the HITRUST Common Security Framework
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#812-applicable-standards-from-the-hipaa-security-rule" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.1.2 Applicable Standards from the HIPAA Security Rule
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#82-auditing-policies" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.2 Auditing Policies
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#83-audit-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.3 Audit Requests
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#84-review-and-reporting-of-audit-findings" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.4 Review and Reporting of Audit Findings
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#85-auditing-customer-and-partner-activity" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.5 Auditing Customer and Partner Activity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#86-audit-log-security-controls-and-backup" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.6 Audit Log Security Controls and Backup
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#87-workforce-training-education-awareness-and-responsibilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.7 Workforce Training, Education, Awareness and Responsibilities
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#88-external-audits-of-information-access-and-activity" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.8 External Audits of Information Access and Activity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#89-retention-of-audit-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.9 Retention of Audit Data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#810-potential-trigger-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.10 Potential Trigger Events
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="8-auditing-policy">8. Auditing Policy</h1>
+<p>Smylen shall audit access and activity of electronic protected health information (ePHI) applications and systems in order to ensure compliance. The Security Rule requires healthcare organizations to implement reasonable hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use ePHI. Audit activities may be limited by application, system, and/or network auditing capabilities and resources. Smylen shall make reasonable and good-faith efforts to safeguard information privacy and security through a well-thought-out approach to auditing that is consistent with available resources.</p>
+<p>It is the policy of Smylen to safeguard the confidentiality, integrity, and availability of applications, systems, and networks. To ensure that appropriate safeguards are in place and effective, Smylen shall audit access and activity to detect, report, and guard against:</p>
+<ul>
+<li>Network vulnerabilities and intrusions;</li>
+<li>Breaches in confidentiality and security of patient protected health information;</li>
+<li>Performance problems and flaws in applications;</li>
+<li>Improper alteration or destruction of ePHI;</li>
+<li>Out of date software and/or software known to have vulnerabilities.</li>
+</ul>
+<p>This policy applies to all Smylen Add-on systems that store, transmit, or process ePHI.</p>
+<h2 id="81-applicable-standards">8.1 Applicable Standards</h2>
+<h3 id="811-applicable-standards-from-the-hitrust-common-security-framework">8.1.1 Applicable Standards from the HITRUST Common Security Framework</h3>
+<ul>
+<li>0.a Information Security Management Program</li>
+<li>01.a Access Control Policy</li>
+<li>01.b User Registration</li>
+<li>01.c Privilege Management</li>
+<li>09.aa Audit Logging</li>
+<li>09.ac Protection of Log Information</li>
+<li>09.ab - Monitoring System Use</li>
+<li>06.e - Prevention of Misuse of Information</li>
+</ul>
+<h3 id="812-applicable-standards-from-the-hipaa-security-rule">8.1.2 Applicable Standards from the HIPAA Security Rule</h3>
+<ul>
+<li>45 CFR §164.308(a)(1)(ii)(D) - Information System Activity Review</li>
+<li>45 CFR §164.308(a)(5)(ii)(B) &amp; &lpar;C&rpar; - Protection from Malicious Software &amp; Log-in Monitoring</li>
+<li>45 CFR §164.308(a)(8) - HIPAA Security Rule Periodic Evaluation</li>
+<li>45 CFR §164.312(b) - Audit Controls</li>
+<li>45 CFR §164.312&lpar;c&rpar;(2) - Mechanism to Authenticate ePHI</li>
+<li>45 CFR §164.312(e)(2)(i) - Integrity Controls</li>
+</ul>
+<h2 id="82-auditing-policies">8.2 Auditing Policies</h2>
+<ol>
+<li>Responsibility for auditing information system access and activity is assigned to Smylen's Security Officer. The Security Officer shall:</li>
+<li>Assign the task of generating reports for audit activities to the workforce member responsible for the application, system, or network;</li>
+<li>Assign the task of reviewing the audit reports to the workforce member responsible for the application, system, or network, the Privacy Officer, or any other individual determined to be appropriate for the task;</li>
+<li>Organize and provide oversight to a team structure charged with audit compliance activities (e.g., parameters, frequency, sample sizes, report formats, evaluation, follow-up, etc.).</li>
+<li>All connections to Smylen are monitored. Access is limited to certain services, ports, and destinations. Exceptions to these rules, if created, are reviewed on an annual basis.</li>
+<li>Smylen's auditing processes shall address access and activity at the following levels listed below. In the case of Smylen Customers, Application and User level auditing is the responsibility of the Customer; Smylen provides software to aggregate and view User and Application logs, but the log data collected is the responsibility of the Smylen Customer. Auditing processes may address date and time of each log-on attempt, date and time of each log-off attempt, devices used, functions performed, etc.</li>
+<li>User: User level audit trails generally monitor and log all commands directly initiated by the user, all identification and authentication attempts, and data and services accessed.</li>
+<li>Application: Application level audit trails generally monitor and log all user activities, including data accessed and modified and specific actions.</li>
+<li>Cloud: Cloud level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions. Smylen utilizes AWS CloudTrail to assure the integrity of file system data.</li>
+<li>Network: Network level audit trails generally monitor information on what is operating, penetrations, and vulnerabilities.</li>
+<li>Smylen shall log all incoming and outgoing traffic to into and out of its environment. This includes all successful and failed attempts at data access and editing. Data associated with this data will include origin, destination, time, and other relevant details that are available to Smylen.</li>
+<li>Smylen relies on AWS to scan their systems for malicious and unauthorized software every hour and at reboot of systems.</li>
+<li>Smylen leverages process monitoring tools throughout its environment.</li>
+<li>Smylen treats its Dashboard as a Platform Add-on and, as such, it logs all activity associated with Dashboard Access.</li>
+<li>Smylen uses AWS GuardDuty to monitor the integrity of all the cloud infrastructure and GitHub notifications to monitor the code in repository and 3rd party packages for vulnerabilities.</li>
+<li>Smylen shall identify "trigger events" or criteria that raise awareness of questionable conditions of viewing of confidential information. The "events" may be applied to the entire Smylen Platform or may be specific to a Customer, partner, business associate, Platform Add-on or application (See Listing of Potential Trigger Events below).</li>
+<li>In addition to trigger events, Smylen utilizes AWS GuardDuty log correlation functionality to proactively identify and enable alerts based on log data.</li>
+<li>Logs are reviewed weekly by the Security Officer.</li>
+<li>Smylen's Security Officer and Privacy Officer are authorized to select and use auditing tools that are designed to detect network vulnerabilities and intrusions. Such tools are explicitly prohibited by others, including Customers and Partners, without the explicit authorization of the Security Officer. These tools may include, but are not limited to:<ul>
+<li>Scanning tools and devices;</li>
+<li>Password cracking utilities;</li>
+<li>Network "sniffers."</li>
+<li>Passive and active intrusion detection systems.</li>
+</ul>
+</li>
+<li>The process for review of audit logs, trails, and reports shall include:<ul>
+<li>Description of the activity as well as rationale for performing the audit.</li>
+<li>Identification of which Smylen workforce members will be responsible for review (workforce members shall not review audit logs that pertain to their own system activity).</li>
+<li>Frequency of the auditing process.</li>
+<li>Determination of significant events requiring further review and follow-up.</li>
+<li>Identification of appropriate reporting channels for audit results and required follow-up.</li>
+</ul>
+</li>
+<li>Vulnerability testing software may be used to probe the network to identify what is running (e.g., operating system or product versions in place), whether publicly-known vulnerabilities have been corrected, and evaluate whether the system can withstand attacks aimed at circumventing security controls.<ul>
+<li>Testing may be carried out internally or provided through an external third-party vendor. Whenever possible, a third party auditing vendor should not be providing the organization IT oversight services (e.g., vendors providing IT services should not be auditing their own services - separation of duties).</li>
+<li>Testing shall be done on a routine basis, currently monthly.</li>
+</ul>
+</li>
+<li>Software patches and updates will be applied to all systems in a timely manner.</li>
+</ol>
+<h2 id="83-audit-requests">8.3 Audit Requests</h2>
+<ol>
+<li>A request may be made for an audit for a specific cause. The request may come from a variety of sources including, but not limited to, Privacy Officer, Security Officer, Customer, Partner, or an Application owner or application user.</li>
+<li>A request for an audit for specific cause must include time frame, frequency, and nature of the request. The request must be reviewed and approved by Smylen's Privacy or Security Officer.</li>
+<li>A request for an audit must be approved by Smylen's Privacy Officer and/or Security Officer before proceeding. Under no circumstances shall detailed audit information be shared with parties without proper permissions and access to see such data.</li>
+<li>Should the audit disclose that a workforce member has accessed ePHI inappropriately, the minimum necessary/least privileged information shall be shared with Smylen's Security Officer to determine appropriate sanction/corrective disciplinary action.</li>
+<li>Only de-identified information shall be shared with Customer or Partner regarding the results of the investigative audit process. This information will be communicated to the appropriate personnel by Smylen's Privacy Officer or designee. Prior to communicating with customers and partners regarding an audit, it is recommended that Smylen consider seeking risk management and/or legal counsel.</li>
+</ol>
+<h2 id="84-review-and-reporting-of-audit-findings">8.4 Review and Reporting of Audit Findings</h2>
+<ol>
+<li>Audit information that is routinely gathered must be reviewed in a timely manner, currently monthly, by the responsible workforce member(s). On a quarterly basis, logs are reviewed to assure the proper data is being captured and retained. The following process details how log reviews are done at Smylen:</li>
+<li>The Security Officer initiates the log review by creating an Issue in the Smylen Task Management System.</li>
+<li>The Security Officer, or a Smylen Security Engineer assigned by the Security Officer, is assigned to review the logs.</li>
+<li>Relevant audit log findings are added to the Issue; these findings are investigated in a later step. Once those steps are completed, the Issue  is then reviewed again.</li>
+<li>Once the review is completed, the Security Officer approves or rejects the Issue. Relevant findings are reviewed at this stage. If the Issue  is rejected, it goes back for further review and documentation. The communications protocol around specific findings are outlined below.</li>
+<li>If the Issue is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.</li>
+<li>The reporting process shall allow for meaningful communication of the audit findings to those workforce members, Customers, or Partners requesting the audit.</li>
+<li>Significant findings shall be reported immediately in a written format. Smylen's security incident response form may be utilized to report a single event.</li>
+<li>Routine findings shall be reported to the sponsoring leadership structure in a written report format.</li>
+<li>Reports of audit results shall be limited to internal use on a minimum necessary/need-to-know basis. Audit results shall not be disclosed externally without administrative and/or legal counsel approval.</li>
+<li>Security audits constitute an internal, confidential monitoring practice that may be included in Smylen's performance improvement activities and reporting. Care shall be taken to ensure that the results of the audits are disclosed to administrative level oversight structures only and that information which may further expose organizational risk is shared with extreme caution. Generic security audit information may be included in organizational reports (individually-identifiable ePHI shall not be included in the reports).</li>
+<li>Whenever indicated through evaluation and reporting, appropriate corrective actions must be undertaken. These actions shall be documented and shared with the responsible workforce members, Customers, and/or Partners.</li>
+<li>Log review activity is monitored on a quarterly basis using the Task Management System reporting to assess compliance with above policy.</li>
+</ol>
+<h2 id="85-auditing-customer-and-partner-activity">8.5 Auditing Customer and Partner Activity</h2>
+<ol>
+<li>Periodic monitoring of Customer and Partner activity shall be carried out to ensure that access and activity is appropriate for privileges granted and necessary to the arrangement between Smylen and the 3rd party. Smylen will make every effort to assure Customers and Partners do not gain access to data outside of their own Environments.</li>
+<li>If it is determined that the Customer or Partner has exceeded the scope of access privileges, Smylen's leadership must remedy the problem immediately.</li>
+<li>If it is determined that a Customer or Partner has violated the terms of the HIPAA business associate agreement or any terms within the HIPAA regulations, Smylen must take immediate action to remediate the situation. Continued violations may result in discontinuation of the business relationship.</li>
+</ol>
+<h2 id="86-audit-log-security-controls-and-backup">8.6 Audit Log Security Controls and Backup</h2>
+<ol>
+<li>Audit logs shall be protected from unauthorized access or modification, so the information they contain will be made available only if needed to evaluate a security incident or for routine audit activities as outlined in this policy.</li>
+<li>All audit logs are protected in transit and encrypted at rest to control access to the content of the logs.</li>
+<li>Audit logs shall be stored on a separate system to minimize the impact auditing may have on the privacy system and to prevent access to audit trails by those with system administrator privileges.</li>
+<li>Separate systems are used to apply the security principle of "separation of duties" to protect audit trails from hackers.</li>
+<li>Smylen logging servers include Elasticsearch, Logstash, and Kibana (ELK) as part of their baseline configuration to ease reviewing of audit log data. The ELK toolkit provides message summarization, reduction, and reporting functionality.</li>
+<li>For Smylen Customers choosing to use Smylen logging services, log data will be separated from the log data of other Smylen Customers.</li>
+</ol>
+<h2 id="87-workforce-training-education-awareness-and-responsibilities">8.7 Workforce Training, Education, Awareness and Responsibilities</h2>
+<ol>
+<li>Smylen workforce members are provided training, education, and awareness on safeguarding the privacy and security of business and ePHI. Smylen's commitment to auditing access and activity of the information applications, systems, and networks is communicated through new employee orientation, ongoing training opportunities and events, and applicable policies. Smylen workforce members are made aware of responsibilities with regard to privacy and security of information as well as applicable sanctions/corrective disciplinary actions should the auditing process detect a workforce member's failure to comply with organizational policies.</li>
+<li>Smylen Customers are provided with necessary information to understand Smylen auditing capabilities, and Smylen Customers can choose the level of logging and auditing that Smylen will implement on their behalf.</li>
+</ol>
+<h2 id="88-external-audits-of-information-access-and-activity">8.8 External Audits of Information Access and Activity</h2>
+<ol>
+<li>Prior to contracting with an external audit firm, Smylen shall:</li>
+<li>Outline the audit responsibility, authority, and accountability;</li>
+<li>Choose an audit firm that is independent of other organizational operations;</li>
+<li>Ensure technical competence of the audit firm staff;</li>
+<li>Require the audit firm's adherence to applicable codes of professional ethics;</li>
+<li>Obtain a signed HIPAA business associate agreement;</li>
+<li>Assign organizational responsibility for supervision of the external audit firm.</li>
+</ol>
+<h2 id="89-retention-of-audit-data">8.9 Retention of Audit Data</h2>
+<ol>
+<li>Audit logs shall be maintained based on organizational needs. There is no standard or law addressing the retention of audit log/trail information. Retention of this information shall be based on:</li>
+<li>Organizational history and experience.</li>
+<li>Available storage space.</li>
+<li>Reports summarizing audit activities shall be retained for a period of six years.</li>
+<li>Audit log data is retained locally on the audit log server for a one-month period. Beyond that, log data is encrypted and moved to warm storage (currently S3) using automated scripts, and is retained for a minimum of one year.</li>
+<li>For Smylen Customers, they choose the length of backup retention and availability that Smylen will implement and enforce.</li>
+</ol>
+<h2 id="810-potential-trigger-events">8.10 Potential Trigger Events</h2>
+<ul>
+<li>High risk or problem prone incidents or events.</li>
+<li>Business associate, customer, or partner complaints.</li>
+<li>Known security vulnerabilities.</li>
+<li>Atypical patterns of activity.</li>
+<li>Failed authentication attempts.</li>
+<li>Remote access use and activity.</li>
+<li>Activity post termination.</li>
+<li>Random audits.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../07-systems_access_policy/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 7. System Access Policy">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                7. System Access Policy
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../09-configuration_management_policy/" class="md-footer__link md-footer__link--next" aria-label="Next: 9. Configuration Management Policy">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                9. Configuration Management Policy
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest", "search.highlight", "navigation.top", "navigation.footer"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
