@@ -1,0 +1,23 @@
+site_name: Smylen Compliance Policy Documentation
+site_url: https://security-policy.smylen.com/
+strict: true
+theme: 
+  name: material
+  footer: false
+  palette:
+      primary: white
+      accent: blue
+  logo: assets/logo.svg
+  favicon: assets/favicon.ico
+  features: 
+    - search.suggest
+    - search.highlight
+    - navigation.top
+    - navigation.footer
+extra:
+  generator: false
+validation:
+  links:
+    anchors: warn
+    absolute_links: warn
+    unrecognized_links: warn
