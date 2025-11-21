@@ -1,0 +1,1296 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://security-policy.smylen.com/11-incident_response_policy/">
+      
+      
+        <link rel="prev" href="../10-facility_access_policy/">
+      
+      
+        <link rel="next" href="../12-breach_policy/">
+      
+      
+      <link rel="icon" href="../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>11. Incident Response Policy - Smylen Compliance Policy Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#11-incident-response-policy" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Smylen Compliance Policy Documentation" class="md-header__button md-logo" aria-label="Smylen Compliance Policy Documentation" data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Smylen Compliance Policy Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              11. Incident Response Policy
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Smylen Compliance Policy Documentation" class="md-nav__button md-logo" aria-label="Smylen Compliance Policy Documentation" data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
+
+    </a>
+    Smylen Compliance Policy Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Smylen HIPAA Compliance Policies
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1. Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-hipaa_inheritance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2. HIPAA Inheritance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-policy_management_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3. Policy Management Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-risk_management_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    4. Risk Management Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-roles_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    5. Roles Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-data_management_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6. Data Management Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-systems_access_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    7. System Access Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-auditing_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    8. Auditing Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09-configuration_management_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    9. Configuration Management Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-facility_access_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    10. Facility Access Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    11. Incident Response Policy
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    11. Incident Response Policy
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#111-applicable-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.1 Applicable Standards
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11.1 Applicable Standards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1111-applicable-standards-from-the-hitrust-common-security-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.1.1 Applicable Standards from the HITRUST Common Security Framework
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1112-applicable-standards-from-the-hipaa-security-rule" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.1.2 Applicable Standards from the HIPAA Security Rule
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#112-incident-management-policies" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.2 Incident Management Policies
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11.2 Incident Management Policies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1121-identification-phase" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.2.1 Identification Phase
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1122-containment-phase-technical" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.2.2 Containment Phase (Technical)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1123-eradication-phase-technical" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.2.3 Eradication Phase (Technical)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1124-recovery-phase-technical" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.2.4 Recovery Phase (Technical)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1125-follow-up-phase-technical-and-non-technical" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.2.5 Follow-up Phase (Technical and Non-Technical)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1126-periodic-evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.2.6 Periodic Evaluation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#113-security-incident-response-team-sirt" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.3 Security Incident Response Team (SIRT)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-breach_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    12. Breach Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13-disaster_recovery_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    13. Disaster Recovery Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14-disposable_media_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    14. Disposable Media Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../15-ids_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    15. IDS Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16-vulnerability_scanning_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    16. Vulnerability Scanning Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../17-data_integrity_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    17. Data Integrity Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../18-data_retention_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    18. Data Retention Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../19-employees_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    19. Employees Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../20-approved_tools_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    20. Approved Tools Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../21-3rd_party_policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    21. 3rd Party Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../22-key_definitions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    22. Key Definitions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../23-smylen_hipaa_business_associate_agreement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    23. Smylen HIPAA Business Associate Agreement ("BAA")
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../24-hipaa_mapping_to_smylen_controls/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    24. HIPAA Mappings to Smylen Controls
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#111-applicable-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.1 Applicable Standards
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11.1 Applicable Standards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1111-applicable-standards-from-the-hitrust-common-security-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.1.1 Applicable Standards from the HITRUST Common Security Framework
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1112-applicable-standards-from-the-hipaa-security-rule" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.1.2 Applicable Standards from the HIPAA Security Rule
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#112-incident-management-policies" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.2 Incident Management Policies
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11.2 Incident Management Policies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1121-identification-phase" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.2.1 Identification Phase
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1122-containment-phase-technical" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.2.2 Containment Phase (Technical)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1123-eradication-phase-technical" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.2.3 Eradication Phase (Technical)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1124-recovery-phase-technical" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.2.4 Recovery Phase (Technical)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1125-follow-up-phase-technical-and-non-technical" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.2.5 Follow-up Phase (Technical and Non-Technical)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1126-periodic-evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.2.6 Periodic Evaluation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#113-security-incident-response-team-sirt" class="md-nav__link">
+    <span class="md-ellipsis">
+      11.3 Security Incident Response Team (SIRT)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="11-incident-response-policy">11. Incident Response Policy</h1>
+<p>Smylen implements an information security incident response process to consistently detect, respond to, and report incidents, minimize loss and destruction, mitigate the weaknesses that were exploited, and restore information system functionality and business continuity as soon as possible.</p>
+<p>The incident response process addresses:</p>
+<ul>
+<li>Continuous monitoring of threats through intrusion detection systems (IDS) and other monitoring applications;</li>
+<li>Establishment of an information security incident response team;</li>
+<li>Establishment of procedures to respond to media inquiries;</li>
+<li>Establishment of clear procedures for identifying, responding, assessing, analyzing, and follow-up of information security incidents;</li>
+<li>Workforce training, education, and awareness on information security incidents and required responses; and</li>
+<li>Facilitation of clear communication of information security incidents with internal, as well as external, stakeholders.</li>
+</ul>
+<p><em>Note:</em> These policies were adapted from work by the <a href="http://hipaacow.org/wp-content/uploads/2015/02/HCR-Security-Incident-Response-FINAL-12.18.14.doc">HIPAA Collaborative of Wisconsin Security Networking Group</a>. Refer to the linked document for additional copyright information.</p>
+<h2 id="111-applicable-standards">11.1 Applicable Standards</h2>
+<h3 id="1111-applicable-standards-from-the-hitrust-common-security-framework">11.1.1 Applicable Standards from the HITRUST Common Security Framework</h3>
+<ul>
+<li>11.a - Reporting Information Security Events</li>
+<li>11.c - Responsibilities and Procedures</li>
+</ul>
+<h3 id="1112-applicable-standards-from-the-hipaa-security-rule">11.1.2 Applicable Standards from the HIPAA Security Rule</h3>
+<ul>
+<li>164.308(a)(5)(i) - Security Awareness and Training</li>
+<li>164.308(a)(6) - Security Incident Procedures</li>
+</ul>
+<h2 id="112-incident-management-policies">11.2 Incident Management Policies</h2>
+<p>The Smylen incident response process follows the process recommended by <a href="https://www.sans.org">SANS</a>, an industry leader in security. Process flows are a direct representation of the SANS process which can be found in <a href="../assets/incident-flowchart.pdf">this document</a>.</p>
+<p>Smylen's incident response classifies security-related events into the following categories:</p>
+<ul>
+<li><strong>Events</strong> - Any observable computer security-related occurrence in a system or network with a negative consequence. Examples:</li>
+<li>Hardware component failing causing service outages.</li>
+<li>Software error causing service outages.</li>
+<li>General network or system instability.</li>
+<li><strong>Precursors</strong> - A sign that an incident may occur in the future. Examples:</li>
+<li>Monitoring system showing unusual behavior.</li>
+<li>Audit log alerts indicated several failed login attempts.</li>
+<li>Suspicious emails targeting specific Smylen staff members with administrative access to production systems.</li>
+<li><strong>Indications</strong> - A sign that an incident may have occurred or may be occurring at the present time. Examples:</li>
+<li>IDS alerts for modified system files or unusual system accesses.</li>
+<li>Antivirus alerts for infected files.</li>
+<li>Excessive network traffic directed at unexpected geographic locations.</li>
+<li><strong>Incidents</strong> - A violation of computer security policies or acceptable use policies, often resulting in data breaches. Examples:</li>
+<li>Unauthorized disclosure of ePHI.</li>
+<li>Unauthorized change or destruction of ePHI.</li>
+<li>A data breach accomplished by an internal or external entity.</li>
+<li>A Denial-of-Service (DoS) attack causing a critical service to become unreachable.</li>
+</ul>
+<p>Smylen employees must report any unauthorized or suspicious activity seen on production systems or associated with related communication systems (such as email or Slack). In practice this means keeping an eye out for security events, and letting the Security Officer know about any observed precursors or indications as soon as they are discovered.</p>
+<h3 id="1121-identification-phase">11.2.1 Identification Phase</h3>
+<ol>
+<li>Immediately upon observation Smylen members report suspected and known Events, Precursors, Indications, and Incidents in one of the following ways:</li>
+<li>Direct report to management, the Security Officer, Privacy Officer, or other;</li>
+<li>Email;</li>
+<li>Phone call;</li>
+<li>Online incident response form located <a href="https://docs.google.com/a/catalyze.io/forms/d/1Hn4di9Jdw5JT8vISMh6tVUnh94VpeHucell7Ca4fKTo/viewform">here</a>;</li>
+<li>Secure Chat;</li>
+<li>Anonymously through workforce member's desired channels.</li>
+<li>The individual receiving the report facilitates completion of an <a href="../assets/IH-Identification.pdf">Incident Identification form</a> and notifies the Security Officer (if not already done).</li>
+<li>The Security Officer determines if the issue is an Event, Precursor, Indication, or Incident.</li>
+<li>If the issue is an event, indication, or precursor the Security Officer forwards it to the appropriate resource for resolution.<ol>
+<li>Non-Technical Event (minor infringement): the Security Officer completes a <a href="../assets/sir-form.doc">SIR Form</a> and investigates the incident.</li>
+<li>Technical Event: Assign the issue to an IT resource for resolution. This resource may also be a contractor or outsourced technical resource, in the event of a small office or lack of expertise in the area.</li>
+</ol>
+</li>
+<li>If the issue is a security incident the Security Officer activates the Security Incident Response Team (SIRT) and notifies senior management.<ol>
+<li>If a non-technical security incident is discovered the SIRT completes the investigation, implements preventative measures, and resolves the security incident.</li>
+<li>Once the investigation is completed, progress to Phase V, Follow-up.</li>
+<li>If the issue is a technical security incident, commence to Phase II: Containment.</li>
+<li>The Containment, Eradication, and Recovery Phases are highly technical. It is important to have them completed by a highly qualified technical security resource with oversight by the SIRT team.</li>
+<li>Each individual on the SIRT and the technical security resource document all measures taken during each phase, including the start and end times of all efforts.</li>
+<li>The lead member of the SIRT team facilitates initiation of a <a href="../assets/sir-form.doc">SIR Form</a> or an <a href="../assets/IH-Survey.pdf">Incident Survey Form</a>. The intent of the SIR form is to provide a summary of all events, efforts, and conclusions of each Phase of this policy and procedures.</li>
+</ol>
+</li>
+<li>The Security Officer, Privacy Officer, or Smylen representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.</li>
+<li>In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to Smylen and potentially external.</li>
+</ol>
+<h3 id="1122-containment-phase-technical">11.2.2 Containment Phase (Technical)</h3>
+<p>In this Phase, Smylen's IT department attempts to contain the security incident. It is extremely important to take detailed notes during the security incident response process. This provides that the evidence gathered during the security incident can be used successfully during prosecution, if appropriate.</p>
+<ol>
+<li>The SIRT reviews any information that has been collected by the Security Officer or any other individual investigating the security incident.</li>
+<li>The SIRT secures the network perimeter.</li>
+<li>The IT department performs the following:</li>
+<li>Securely connect to the affected system over a trusted connection.</li>
+<li>Retrieve any volatile data from the affected system.</li>
+<li>Determine the relative integrity and the appropriateness of backing the system up.</li>
+<li>If appropriate, back up the system.</li>
+<li>Change the password(s) to the affected system(s).</li>
+<li>Determine whether it is safe to continue operations with the affected system(s).</li>
+<li>If it is safe, allow the system to continue to function;<ol>
+<li>Complete any documentation relative to the security incident on the <a href="../assets/sir-form.doc">SIR Form</a>.</li>
+<li>Move to Phase V, Follow-up.</li>
+</ol>
+</li>
+<li>If it is NOT safe to allow the system to continue operations, discontinue the system(s) operation and move to Phase III, Eradication.</li>
+<li>The individual completing this phase provides written communication to the SIRT.</li>
+<li>Continuously apprise Senior Management of progress.</li>
+<li>Continue to notify affected Customers and Partners with relevant updates as needed</li>
+</ol>
+<h3 id="1123-eradication-phase-technical">11.2.3 Eradication Phase (Technical)</h3>
+<p>The Eradication Phase represents the SIRT's effort to remove the cause, and the resulting security exposures, that are now on the affected system(s).</p>
+<ol>
+<li>Determine symptoms and cause related to the affected system(s).</li>
+<li>Strengthen the defenses surrounding the affected system(s), where possible (a risk assessment may be needed and can be determined by the Security Officer). This may include the following:</li>
+<li>An increase in network perimeter defenses.</li>
+<li>An increase in system monitoring defenses.</li>
+<li>Remediation ("fixing") any security issues within the affected system, such as removing unused services/general host hardening techniques.</li>
+<li>Conduct a detailed vulnerability assessment to verify all the holes/gaps that can be exploited have been addressed.</li>
+<li>If additional issues or symptoms are identified, take appropriate preventative measures to eliminate or minimize potential future compromises.</li>
+<li>Complete the <a href="../assets/IH-Eradication.pdf">Eradication Form</a>.</li>
+<li>Update the documentation with the information learned from the vulnerability assessment, including the cause, symptoms, and the method used to fix the problem with the affected system(s).</li>
+<li>Apprise Senior Management of the progress.</li>
+<li>Continue to notify affected Customers and Partners with relevant updates as needed.</li>
+<li>Move to Phase IV, Recovery.</li>
+</ol>
+<h3 id="1124-recovery-phase-technical">11.2.4 Recovery Phase (Technical)</h3>
+<p>The Recovery Phase represents the SIRT's effort to restore the affected system(s) back to operation after the resulting security exposures, if any, have been corrected.</p>
+<ol>
+<li>The technical team determines if the affected system(s) have been changed in any way.</li>
+<li>If they have, the technical team restores the system to its proper, intended functioning ("last known good").</li>
+<li>Once restored, the team validates that the system functions the way it was intended/had functioned in the past. This may require the involvement of the business unit that owns the affected system(s).</li>
+<li>If operation of the system(s) had been interrupted (i.e., the system(s) had been taken offline or dropped from the network while triaged), restart the restored and validated system(s) and monitor for behavior.</li>
+<li>If the system had not been changed in any way, but was taken offline (i.e., operations had been interrupted), restart the system and monitor for proper behavior.</li>
+<li>Update the documentation with the detail that was determined during this phase.</li>
+<li>Apprise Senior Management of progress.</li>
+<li>Continue to notify affected Customers and Partners with relevant updates as needed.</li>
+<li>Move to Phase V, Follow-up.</li>
+</ol>
+<h3 id="1125-follow-up-phase-technical-and-non-technical">11.2.5 Follow-up Phase (Technical and Non-Technical)</h3>
+<p>The Follow-up Phase represents the review of the security incident to look for "lessons learned" and to determine whether the process that was taken could have been improved in any way. It is recommended all security incidents be reviewed shortly after resolution to determine where response could be improved. Timeframes may extend to one to two weeks post-incident.</p>
+<ol>
+<li>Responders to the security incident (SIRT Team and technical security resource) meet to review the documentation collected during the security incident.</li>
+<li>Create a "lessons learned" document and attach it to the completed <a href="../assets/sir-form.doc">SIR Form</a>.</li>
+<li>Evaluate the cost and impact of the security incident to Smylen using the documents provided by the SIRT and the technical security resource.</li>
+<li>Determine what could be improved.</li>
+<li>Communicate these findings to Senior Management for approval and for implementation of any recommendations made post-review of the security incident.</li>
+<li>Carry out recommendations approved by Senior Management; sufficient budget, time and resources should be committed to this activity.</li>
+<li>Close the security incident.</li>
+</ol>
+<h3 id="1126-periodic-evaluation">11.2.6 Periodic Evaluation</h3>
+<p>It is important to note that the processes surrounding security incident response should be periodically reviewed and evaluated for effectiveness. This also involves appropriate training of resources expected to respond to security incidents, as well as the training of the general population regarding Smylen's expectation for them, relative to security responsibilities. The incident response plan is tested annually.</p>
+<h2 id="113-security-incident-response-team-sirt">11.3 Security Incident Response Team (SIRT)</h2>
+<p>Current members of the Smylen SIRT:</p>
+<ul>
+<li>Security Officer</li>
+<li>Privacy Officer</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../10-facility_access_policy/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 10. Facility Access Policy">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                10. Facility Access Policy
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../12-breach_policy/" class="md-footer__link md-footer__link--next" aria-label="Next: 12. Breach Policy">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                12. Breach Policy
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest", "search.highlight", "navigation.top", "navigation.footer"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
