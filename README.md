@@ -1,5 +1,6 @@
 # Smylen HIPAA Compliance Policies
 
+
 HIPAA compliance is complicated, but it doesn't have to be. Smylen forked the Datica policies to help relieve the technical burden with our HIPAA-compliant platform and solutions for healthcare.
 
 ## Why did we use open source policies?
